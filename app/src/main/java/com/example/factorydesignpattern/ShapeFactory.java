@@ -1,7 +1,7 @@
 package com.example.factorydesignpattern;
 
-public class ShapeFactory {
-    public Shape getShape(String s1) {
+public class ShapeFactory {// creating ShapeFactory class for returning objects of concrete classes(Circle,Rectangle,Square)
+    public Shape getShape(String s1) {//declaring getShape method of type interface(Shape)
         if (s1 == null) {
             return null;
         }
